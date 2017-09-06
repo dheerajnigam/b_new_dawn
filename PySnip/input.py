@@ -3,7 +3,7 @@ import sys
 inp=raw_input()
 
 while inp != 'quit':
-	print ">>>>>>>[" + len(inp)+"] " + inp
+	print ">>>>>>>[" + str(len(inp)) +"] " + inp
 	inp=raw_input()
 
 print("quit is pressed")
